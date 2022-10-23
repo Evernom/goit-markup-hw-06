@@ -586,7 +586,46 @@ ul {
 .social-icon {
   fill: currentColor;
 }
-
+.subscribe-block {
+  margin-top: 72px;
+  margin-left: 93px;
+  color: var(--logo-footer-color);
+}
+.subscribe-title {
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14285;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.subscribe-lable {
+  margin-right: 12px;
+  color: var(--logo-footer-color);
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.subscribe-button {
+  display: inline-block;
+  padding: 10px 28px;
+  color: var(--logo-footer-color);
+  background-color: var(--button-link-color);
+  cursor: pointer;
+  border: none;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 1.875;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  vertical-align: bottom;
+}
+.subscribe-icon {
+  ertical-align: bottom;
+}
 .backdrop {
   position: fixed;
   top: 0;
