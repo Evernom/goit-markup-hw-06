@@ -353,9 +353,6 @@ ul {
   flex-wrap: wrap;
   gap: 30px;
 }
-.client-card:last-child {
-  margin-right: 0;
-}
 .clients-link {
   width: 170px;
   height: 92px;
@@ -528,6 +525,8 @@ ul {
 }
 .footer-flex {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-socials {
   margin-left: 70px;
@@ -570,7 +569,46 @@ ul {
 .social-icon {
   fill: currentColor;
 }
-
+.subscribe-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.subscribe-block {
+  margin-top: 72px;
+  margin-left: 93px;
+  color: var(--logo-footer-color);
+}
+.subscribe-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14285;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.subscribe-email {
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+}
+.subscribe-button {
+  display: inline-flex;
+  padding: 10px 28px;
+  gap: 10px;
+  align-items: center;
+  letter-spacing: 0.06em;
+  line-height: 1.875;
+  color: inherit;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
 .backdrop {
   position: fixed;
   top: 0;
