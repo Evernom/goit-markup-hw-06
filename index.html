@@ -26,7 +26,7 @@
         <nav>
           <ul class="header-nav decorate-contact">
             <li class="nav-list">
-              <a class="link-studio" href="./index.html">Студія</a>
+              <a class="link" href="./index.html">Студія</a>
             </li>
             <li class="nav-list"><a href="./portfolio.html">Портфоліо</a></li>
             <li class="nav-list"><a href="#contact">Контакти</a></li>
@@ -470,12 +470,41 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal-block">
+      <div class="modal">
         <button class="button-modal" data-modal-close>
           <svg class="xclose-icon" width="18" height="18">
             <use href="./img/symbol-defs.svg#icon-xclose"></use>
           </svg>
         </button>
+        <h2 class="modal-title">
+          Залиште свої дані, ми вам передзвонимоЗалиште свої дані, ми вам
+          передзвонимо
+        </h2>
+        <form class="modal-form">
+          <label class="modal-elements">
+            Ім'я
+            <input type="name" />
+          </label>
+          <label class="modal-elements">
+            Телефон
+            <input type="tel" />
+          </label>
+          <label class="modal-elements">
+            Пошта
+            <input type="email" />
+          </label>
+          <label class="modal-elements">
+            Коментар
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </label>
+          <label class="modal-elements">
+            <input type="checkbox" />
+            <p class="modal-text">
+              Погоджуюся з розсилкою та приймаю<a href="">Умови договору</a>
+            </p>
+            <button class="button-modal-bottom">Відправити</button>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
