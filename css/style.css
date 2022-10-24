@@ -653,18 +653,14 @@ ul {
   transform: translate(50%, -50%);
 }
 .modal-form {
-  display: flex;
-  flex-direction: column;
 }
 .modal-title {
   font-size: 20px;
+  max-width: 448px;
 }
 .modal-elements {
-  display: flex;
 }
 .modal-text {
-  display: inline;
 }
 .button-modal-bottom {
-  display: block;
 }
