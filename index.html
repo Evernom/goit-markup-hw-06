@@ -481,26 +481,26 @@
         <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
         <form class="modal-form">
           <div class="modal-field">
-            <label for="name" class="modal-text"> Ім'я</label>
+            <label for="form-name" class="modal-text"> Ім'я</label>
             <input class="modal-input" type="text" name="name" id="name" />
             <svg class="modal-icon" width="18" height="18">
               <use href="./img/symbol-defs.svg#person-modal"></use>
             </svg>
           </div>
           <div class="modal-field">
-            <label for="tel" class="modal-text"> Телефон</label>
-            <input class="modal-input" type="tel" name="tel" id="tel" />
+            <label for="form-tel" class="modal-text"> Телефон</label>
+            <input class="modal-input" type="tel" name="tel" id="form-tel" />
             <svg class="modal-icon" width="18" height="18">
               <use href="./img/symbol-defs.svg#phone-modal"></use>
             </svg>
           </div>
           <div class="modal-field">
-            <label for="mail" class="modal-text"> Пошта</label>
+            <label for="form-mail" class="modal-text"> Пошта</label>
             <input
               class="modal-input"
               type="email"
               name="mail"
-              id="mail"
+              id="form-mail"
               placeholder=""
             />
             <svg class="modal-icon" width="18" height="18">
@@ -508,19 +508,25 @@
             </svg>
           </div>
           <div class="modal-field">
-            <label for="text" class="modal-text"> Коментар</label>
+            <label for="form-text" class="modal-text"> Коментар</label>
             <textarea
               class="modal-comment"
               placeholder="Введіть текст"
               name="comment"
-              id="text"
+              id="form-text"
             ></textarea>
           </div>
           <div class="modal-checkbox">
-            <input type="checkbox" name="" id="checkbox" />
-            <label class="checkbox-text" for="checkbox"
+            <input
+              class="input-check"
+              type="checkbox"
+              name="checkbox"
+              id="form-checkbox"
+            />
+            <span class="icon-check"></span>
+            <label class="checkbox-text" for="form-checkbox"
               >Погоджуюся з розсилкою та приймаю
-              <a href=""> Умови договору</a></label
+              <a href="#"> Умови договору</a></label
             >
           </div>
           <button class="button-modal-bottom" type="submit">Відправити</button>
