@@ -734,16 +734,12 @@ ul {
 }
 .modal-checkbox {
   display: flex;
-  align-items: center;
   margin-top: 20px;
   margin-left: 13px;
 }
 .checkbox-lable {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  position: relative;
-  margin-top: 20px;
-  margin-left: 13px;
   font-size: 14px;
   line-height: 1.71428;
   letter-spacing: 0.03em;
@@ -771,8 +767,12 @@ ul {
   background-origin: border-box;
 }
 
-.checkbox-lable > a {
+.modal-checkbox > a {
   color: var(--button-link-color);
+  font-size: 14px;
+  line-height: 1.71428;
+  letter-spacing: 0.03em;
+  padding-left: 5px;
 }
 
 .button-modal-bottom {
