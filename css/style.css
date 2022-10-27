@@ -558,11 +558,6 @@ ul {
 .social-icon {
   fill: currentColor;
 }
-/* .subscribe-flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-} */
 .subscribe-block {
   margin-top: 72px;
   margin-left: 93px;
@@ -744,7 +739,6 @@ ul {
   color: var(--adult-color);
 }
 .input-check {
-  /* подивився, що використовувати visual hidden нема наче сенсу і залишив так */
   appearance: none;
   position: absolute;
 }
