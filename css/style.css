@@ -738,6 +738,17 @@ ul {
   margin-top: 20px;
   margin-left: 13px;
 }
+.checkbox-lable {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 13px;
+  font-size: 14px;
+  line-height: 1.71428;
+  letter-spacing: 0.03em;
+  color: var(--adult-color);
+}
 .input-check {
   /* подивився, що використовувати visual hidden нема наче сенсу і залишив так */
   appearance: none;
@@ -747,6 +758,7 @@ ul {
   display: inline-block;
   width: 16px;
   height: 15px;
+  margin-right: 7px;
   border-radius: 2px;
   background-color: var(--logo-footer-color);
   background-image: url('../img/off.svg');
@@ -758,15 +770,8 @@ ul {
   background-size: contain;
   background-origin: border-box;
 }
-.checkbox-text {
-  margin-left: 7px;
-  font-size: 14px;
-  line-height: 1.71428;
-  letter-spacing: 0.03em;
-  color: var(--adult-color);
-}
 
-.checkbox-text > a {
+.checkbox-lable > a {
   color: var(--button-link-color);
 }
 
